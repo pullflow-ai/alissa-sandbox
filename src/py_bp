@@ -1,0 +1,21 @@
+def greet(name):
+    return f"Hello, {name}!"
+
+def main():
+    # Simple list to store data
+    users = ["Alice", "Bob", "Charlie"]
+
+    # Print a greeting for each user
+    for user in users:
+        print(greet(user))
+
+    # Basic error handling
+    try:
+        # Simulating some operation
+        result = 10 / 2
+        print(f"Result of 10 / 2 is: {result}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    main()
